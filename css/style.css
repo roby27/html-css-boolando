@@ -23,6 +23,7 @@ img {
 .page-header {
     background-color: orange;
     color: white;
+    box-shadow;
 }
 
 .page-footer {
@@ -41,7 +42,14 @@ img {
 }
 
 .page-title {
+    display: flex;
+    justify-content: center;
     padding-top: 15px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
 }
 
 .col-100 {
