@@ -23,6 +23,7 @@ img {
 .page-header {
     background-color: orange;
     color: white;
+    line-height: 30px;
 }
 
 .page-footer {
@@ -52,8 +53,16 @@ img {
     gap: 10px;
 }
 
+.center {
+    margin: 0 auto;
+}
+
 .logo {
     height: 30px;
+}
+
+.col {
+    padding: 10px;
 }
 
 .col-33 {
@@ -70,12 +79,24 @@ img {
     padding: 20px 0;
 }
 
+.align-self-center {
+    align-self: center;
+}
+
 .space-between {
     justify-content: space-between;
 }
 
 .space-around {
     justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-content-center {
+    align-content: center;
 }
 
 .card {
